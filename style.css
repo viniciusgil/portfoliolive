@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to left, white -70%, black);
+    font-family: 'Gentium Basic';
+    font-size: 30px;
+}
+
+main {
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    width: 1200px;
+    padding: 20px;
+    margin: auto;
+    
+}
+p{
+    text-align:justify;
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px red;
+}
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px 1px red;
+}
+
+img, main {
+    display: inline-block;
+}
+
+img {
+    border-radius: 20px;
+}
+nav img {
+    width: 700px;
+    
+}
+video {
+    width: 700px;
+}
+a {
+    color: red;
+    text-decoration: none;
+    padding: 16px;
+}
+nav a:hover {
+    color: green;
+}
+
+h3 a:hover {
+    color: green;
+}
+p a {
+    font-size: 40px;
+}
+
+p a:hover {
+    color: green;
+  
+}
